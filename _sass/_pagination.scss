@@ -1,0 +1,22 @@
+.pagination button {
+  color: var(--color-font);
+}
+
+.pagination button:hover {
+  background: var(--color-light-grey);
+}
+
+.pagination .current {
+  background: var(--color-blue);
+  color: var(--color-powder);
+  cursor: default;
+}
+
+.pagination .disabled {
+  color: var(--color-grey1);
+  cursor: not-allowed;
+}
+
+.pagination .ellipsis::after {
+  color: var(--color-font);
+}

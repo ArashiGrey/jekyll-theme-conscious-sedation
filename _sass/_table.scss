@@ -1,0 +1,45 @@
+table thead,
+table tbody,
+table tfoot {
+  border: 1px solid var(--color-light-grey);
+  background-color: var(--color-powder);
+}
+
+table thead {
+  background: var(--color-lighter-grey);
+  color: var(--color-font);
+}
+
+table tfoot {
+  background: var(--color-light-grey);
+  color: var(--color-font);
+}
+
+table tbody tr:nth-child(even) {
+  background-color: var(--color-light-grey);
+}
+
+table.unstriped tbody {
+  background-color: var(--color-powder);
+}
+
+table.unstriped tbody tr {
+  border-bottom: 1px solid var(--color-light-grey);
+  background-color: var(--color-powder);
+}
+
+table.hover thead tr:hover {
+  background-color: var(--color-light-grey);
+}
+
+table.hover tfoot tr:hover {
+  background-color: var(--color-light-grey);
+}
+
+table.hover tbody tr:hover {
+  background-color: var(--color-lighter-grey);
+}
+
+table.hover:not(.unstriped) tr:nth-of-type(even):hover {
+  background-color: var(--color-light-grey);
+}

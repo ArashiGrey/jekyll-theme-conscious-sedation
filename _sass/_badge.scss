@@ -1,0 +1,39 @@
+.badge {
+  background: var(--color-blue);
+  color: var(--color-powder);
+}
+
+.badge.primary {
+  background: var(--color-blue);
+  color: var(--color-powder);
+}
+
+.badge.secondary {
+  background: var(--color-grey2);
+  color: var(--color-font);
+}
+
+.badge.alert {
+  background: var(--color-ruby);
+  color: var(--color-powder);
+}
+
+.badge.success {
+  background: var(--color-green);
+  color: var(--color-font);
+}
+
+.badge.warning {
+  background: var(--color-orange);
+  color: var(--color-font);
+}
+
+.badge.body-font {
+  background: var(--color-font);
+  color: var(--color-powder);
+}
+
+.badge.header {
+  background: var(--color-font);
+  color: var(--color-powder);
+}

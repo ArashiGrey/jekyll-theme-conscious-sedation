@@ -1,0 +1,181 @@
+label {
+  color: var(--color-font);
+}
+
+.help-text {
+  color: var(--color-font);
+}
+
+.input-group-label {
+  border: 1px solid var(--color-grey1);
+  background: var(--color-light-grey);
+  color: var(--color-font);
+}
+
+.fieldset {
+  border: 1px solid var(--color-grey1);
+}
+
+.fieldset legend {
+  background: var(--color-powder);
+}
+
+select {
+  border: 1px solid var(--color-grey1);
+  background-color: var(--color-powder);
+  color: var(--color-font);
+}
+
+select:focus {
+  border: 1px solid var(--color-dark-grey);
+  background-color: var(--color-powder);
+  box-shadow: 0 0 5px var(--color-grey1);
+}
+
+select:disabled {
+  background-color: var(--color-light-grey);
+}
+
+.is-invalid-input:not(:focus) {
+  border-color: var(--color-ruby);
+  background-color: var(--color-light-grey);
+}
+
+.is-invalid-input:not(:focus)::-webkit-input-placeholder {
+  color: var(--color-ruby);
+}
+
+.is-invalid-input:not(:focus)::-moz-placeholder {
+  color: var(--color-ruby);
+}
+
+.is-invalid-input:not(:focus):-ms-input-placeholder {
+  color: var(--color-ruby);
+}
+
+.is-invalid-input:not(:focus)::placeholder {
+  color: var(--color-ruby);
+}
+
+.is-invalid-label {
+  color: var(--color-ruby);
+}
+
+.form-error {
+  color: var(--color-ruby);
+}
+
+
+.slider {
+  background-color: var(--color-light-grey);
+}
+
+.slider-fill {
+  background-color: var(--color-grey1);
+  transition: all 0.2s ease-in-out;
+}
+
+.slider-handle {
+  background-color: var(--color-blue);
+}
+
+.slider-handle:hover {
+  background-color: var(--color-dark-blue);
+}
+
+.switch {
+  color: var(--color-powder);
+}
+
+.switch-paddle {
+  background: var(--color-grey1);
+}
+
+.switch-paddle::after {
+  background: var(--color-powder);
+  transition: all 0.25s ease-out;
+  content: '';
+}
+
+input:checked~.switch-paddle {
+  background: var(--color-blue);
+}
+.label {
+  background: var(--color-blue);
+  color: var(--color-powder);
+}
+
+.label.primary {
+  background: var(--color-blue);
+  color: var(--color-powder);
+}
+
+.label.secondary {
+  background: var(--color-grey2);
+  color: var(--color-font);
+}
+
+.label.alert {
+  background: var(--color-ruby);
+  color: var(--color-powder);
+}
+
+.label.success {
+  background: var(--color-green);
+  color: var(--color-font);
+}
+
+.label.warning {
+  background: var(--color-orange);
+  color: var(--color-font);
+}
+
+.label.body-font {
+  background: var(--color-font);
+  color: var(--color-powder);
+}
+
+.label.header {
+  background: var(--color-font);
+  color: var(--color-powder);
+}
+
+.progress {
+  background-color: var(--color-grey1);
+}
+
+.progress.primary .progress-meter {
+  background-color: var(--color-blue);
+}
+
+.progress.secondary .progress-meter {
+  background-color: var(--color-grey2);
+}
+
+.progress.alert .progress-meter {
+  background-color: var(--color-ruby);
+}
+
+.progress.success .progress-meter {
+  background-color: var(--color-green);
+}
+
+.progress.warning .progress-meter {
+  background-color: var(--color-orange);
+}
+
+.progress.body-font .progress-meter {
+  background-color: var(--color-font);
+}
+
+.progress.header .progress-meter {
+  background-color: var(--color-font);
+}
+
+.progress-meter {
+  background-color: var(--color-blue);
+ }
+
+.progress-meter-text {
+  color: var(--color-powder);
+ }

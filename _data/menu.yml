@@ -1,0 +1,12 @@
+# menu.yml contents
+
+- title: Your Awesome Website
+  url: /index/
+- title: Tags
+  url: /tags/
+- title: Categories
+  url: /categories/
+- title: About
+  url: /about/
+- title: Sample
+  url: /sample/

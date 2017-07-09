@@ -1,0 +1,73 @@
+.tagg {
+  padding: 5em;
+}
+
+section.tags #tags {
+  font-size: .7em;
+  margin-top: 40px;
+  position: relative
+}
+
+section.tags #tags .tag {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin-bottom: 2em;
+  float: left;
+  width: 220px;
+}
+
+section.tags #tags .tag h3 {
+  padding: 5px 10px;
+}
+
+section.tags #tags .tag ul {
+  list-style: none;
+  padding: 5px;
+  background-color: var(--color-light-grey);
+  border-radius: 3px;
+}
+
+section.tags #tags .tag ul li {
+  padding: 5px;
+  border-bottom: 1px solid var(--color-lighter-grey);
+}
+
+section.tags #tags .tag ul li a {
+  color: var(--color-darker-font);
+}
+
+section.tags #tags .tag ul li:first-child {
+  padding-top: 0
+}
+
+section.tags #tags .tag ul li:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+section.tags #cloud {
+  text-align: justify;
+  padding: 2rem;
+  line-height: 2em;
+}
+
+section.tags #cloud .small {
+  font-size: .8em
+}
+
+section.tags #cloud .large {
+  font-size: 1.6em
+}
+
+section.tags #cloud .huge {
+  font-size: 2em
+}
+
+section.tags .anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden
+}

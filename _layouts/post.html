@@ -1,0 +1,38 @@
+--- 
+layout: default
+comments: true
+---
+<div class="grid-y medium grid frame"> 
+  <div class="cell medium-cell-block" style="margin-top:4em">
+<p>
+<h1>{{ page.title }}</h1>
+  <hr>
+  <p>
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: '%B %d, %Y' }}</time>
+  </p>
+   {% if page.author %}
+    <p><strong><span>Author</span><span> <h2>{{page.author}}</h2></span></strong></p>
+  {% endif %}
+</p>
+</div>
+   <div class="grid-x grid-padding-x">
+  <div class="cell medium-cell-block">
+{{ content }}
+</div>
+</div>
+</div>
+<hr>
+<p class="rss-subscribe">subscribe to the <a href="{{ site.baseurl }}/tag/{{ page.tag }}.xml">{{page.tag}} tag via RSS</a></p>
+<p>
+{% if page.previous.url %}
+<a href="{{page.previous.url}}">
+        &laquo; {{page.previous.title}}
+    </a> {% endif %} {% if page.next.url %}
+</p>    
+<p>
+<a href="{{page.next.url}}">
+        {{page.next.title}} &raquo;
+    </a> {% endif %}
+</p>
+</hr>
+

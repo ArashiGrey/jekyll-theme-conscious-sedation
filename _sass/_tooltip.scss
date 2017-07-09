@@ -1,0 +1,24 @@
+.has-tip {
+  border-bottom: dotted 1px var(--color-dark-grey);
+ }
+
+.tooltip {
+  background-color: var(--color-font);
+  color: var(--color-powder);
+}
+
+.tooltip.bottom::before {
+  border-color: transparent transparent var(--color-font);
+ }
+
+.tooltip.top::before {
+  border-color: var(--color-font) transparent transparent;
+ }
+
+.tooltip.left::before {
+  border-color: transparent transparent transparent var(--color-font);
+ }
+
+.tooltip.right::before {
+  border-color: transparent var(--color-font) transparent transparent;
+ }

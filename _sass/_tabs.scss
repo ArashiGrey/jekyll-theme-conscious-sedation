@@ -1,0 +1,43 @@
+.tabs {
+  border: 1px solid var(--color-light-grey);
+  background: var(--color-powder);
+  list-style-type: none;
+}
+
+.tabs.primary {
+  background: var(--color-blue);
+}
+
+.tabs.primary>li>a {
+  color: var(--color-powder);
+}
+
+.tabs.primary>li>a:hover,
+.tabs.primary>li>a:focus {
+  background: var(--color-dark-blue);
+}
+
+.tabs-title>a {
+  color: var(--color-blue);
+}
+
+.tabs-title>a:hover {
+  background: var(--color-powder);
+  color: var(--color-dark-blue);
+}
+
+.tabs-title>a:focus,
+.tabs-title>a[aria-selected='true'] {
+  background: var(--color-light-grey);
+  color: var(--color-blue);
+}
+
+.tabs-content {
+  border: 1px solid var(--color-light-grey);
+  background: var(--color-powder);
+  color: var(--color-font);
+}
+
+.tabs-content.vertical {
+  border: 1px solid var(--color-light-grey);
+}

@@ -1,0 +1,9 @@
+<div class="callout secondary large text-center">
+<h2 class="title">
+  {{ post.title | escape }}
+</h2>
+  <span>{{ post.date | date: '%B %d, %Y' }}</span>
+<p>{{ post.excerpt }}</p>
+{% if post.excerpt %}
+<a href="{{ post.url | prepend: site.baseurl }}" class="hollow button">Read more</a> {% endif %}
+</div>

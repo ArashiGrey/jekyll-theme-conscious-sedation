@@ -1,0 +1,18 @@
+.breadcrumbs li {
+  color: var(--color-font);
+  cursor: default;
+  text-transform: uppercase;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  color: var(--color-grey1);
+}
+
+.breadcrumbs a {
+  color: var(--color-blue);
+}
+
+.breadcrumbs .disabled {
+  color: var(--color-grey1);
+  cursor: not-allowed;
+}

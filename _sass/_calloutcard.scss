@@ -1,0 +1,50 @@
+.callout {
+  border: none;
+  background-color: var(--color-powder);
+  color: var(--color-font);
+}
+
+.callout.primary {
+  background-color: var(--color-lighter-blue);
+  color: var(--color-font);
+}
+
+.callout.secondary {
+  background-color: var(--color-lighter-grey);
+  color: var(--color-font);
+}
+
+.callout.alert {
+  background-color: var(--color-lighter-ruby);
+  color: var(--color-font);
+}
+
+.callout.success {
+  background-color: var(--color-lighter-green);
+  color: var(--color-font);
+}
+
+.callout.warning {
+  background-color: var(--color-lighter-orange);
+  color: var(--color-font);
+}
+
+.callout.body-font {
+  background-color: var(--color-grey1);
+  color: var(--color-font);
+}
+
+.callout.header {
+  background-color: var(--color-grey1);
+  color: var(--color-font);
+}
+
+.card {
+  border: 1px solid var(--color-light-grey);
+  background: var(--color-powder);
+  color: var(--color-font);
+}
+
+.card-divider {
+  background: var(--color-light-grey);
+}

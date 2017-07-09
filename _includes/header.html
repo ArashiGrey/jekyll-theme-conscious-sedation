@@ -1,0 +1,12 @@
+
+<div class="top-bar">
+<div class="top-bar-left">
+<ul class="menu">
+{% for item in site.data.menu %}
+    <li class="{% if item.url == page.url %}active{% endif %}">
+      <a href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+</div>
+</div>
