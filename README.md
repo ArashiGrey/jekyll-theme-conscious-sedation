@@ -1,6 +1,12 @@
 jekyll-theme-conscious-sedation
 ================================
 
+[Screenshot of home.html](https://user-images.githubusercontent.com/17595729/27993864-f5793c82-64b1-11e7-9334-4cb24ec19646.png)
+[Screenshot of tags.html](https://user-images.githubusercontent.com/17595729/27993867-0083b094-64b2-11e7-9679-5fe7b1eacb05.png)
+[Screenshot of categories.html](https://user-images.githubusercontent.com/17595729/27993868-04347a52-64b2-11e7-84f0-5a83503e934b.png)
+[Screenshot of categories.html](https://user-images.githubusercontent.com/17595729/27993869-06228016-64b2-11e7-9327-d0c3d852f842.png)
+[Screenshot of about.md](https://user-images.githubusercontent.com/17595729/27993870-0842adda-64b2-11e7-8aa0-3f948d6d33e4.png)
+
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
 More information can be found in the Resources and Credits section.
