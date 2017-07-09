@@ -1,5 +1,7 @@
 jekyll-theme-conscious-sedation
 ================================
+[Demo](https://jekyll-theme-conscious-sedation.netlify.com/)
+------
 
 * [Screenshot of home.html](https://user-images.githubusercontent.com/17595729/27993864-f5793c82-64b1-11e7-9334-4cb24ec19646.png)
 * [Screenshot of tags.html](https://user-images.githubusercontent.com/17595729/27993867-0083b094-64b2-11e7-9679-5fe7b1eacb05.png)
