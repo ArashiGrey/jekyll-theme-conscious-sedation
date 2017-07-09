@@ -56,13 +56,12 @@ permalink: pretty
 
 plugins:
   - jekyll-feed
-  - jekyll-admin
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-mentions
   - jemoji 
 
-
+  
 #jekyll-mentions:
 #  base_url: https://twitter.com
 

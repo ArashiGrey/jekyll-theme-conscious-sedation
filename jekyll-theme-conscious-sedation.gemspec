@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-conscious-sedation"
-  spec.version       = "0.1.0"
+  spec.version       = "0.0.2"
   spec.authors       = ["LavenderGrey askcreative"]
-  spec.email         = ["arashi@tutanotade"]
+  spec.email         = ["arashi@tutanota.de"]
   spec.summary       = %q{An effectual and sparse Jekyll theme.}
   spec.homepage      = "https://github.com/LavenderGrey/conscious-sedation"
   spec.license       = "MIT"
@@ -17,7 +17,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.1.1"
   spec.add_runtime_dependency "jekyll-mentions", "~> 1.2.0"
   spec.add_runtime_dependency "jemoji", "~> 0.8.0"
-  spec.add_runtime_dependency "jekyll-admin", "~> 0.6.0"
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
