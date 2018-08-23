@@ -1,0 +1,25 @@
+{
+    "name": "My Awesome Website",
+    "short_name": "The Awesome",
+    "icons": [{
+        "src": "assets/img/manifest/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+    }, {
+        "src": "assets/img/manifest/apple-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+    }, {
+        "src": "assets/img/manifest/ms-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "assets/img/manifest/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "start_url": "/index.html?utm_source=homescreen",
+    "display": "standalone",
+    "background_color": "#fefcfb",
+    "theme_color": "#ac3b61"
+}

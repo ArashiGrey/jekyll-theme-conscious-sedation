@@ -31,14 +31,14 @@ facebook:
  logo: "" # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
 
 social:
-  name: #Ben Balter
+  name: #Ben Banter
   links:
-    #- https://twitter.com/BenBalter
-    #- https://www.facebook.com/ben.balter
-    #- https://www.linkedin.com/in/BenBalter
-    #- https://plus.google.com/+BenBalter
-    #- https://github.com/benbalter
-    #- https://keybase.io/benbalter
+    #- https://twitter.com/BenBanter
+    #- https://www.facebook.com/ben.banter
+    #- https://www.linkedin.com/in/BenBanter
+    #- https://plus.google.com/+BenBanter
+    #- https://github.com/benbanter
+    #- https://keybase.io/benbanter
 
 webmaster_verifications:
   google: 1234
@@ -60,6 +60,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jemoji 
+  - jekyll-pwa-plugin
 
   
 #jekyll-mentions:
@@ -75,6 +76,19 @@ ignored_tags: [blog]
 
 tag_page_data:
   sitemap: false
+
+pwa:
+sw_src_filepath: service-worker.js # Optional
+sw_dest_filename: service-worker.js # Optional
+dest_js_directory: assets/js # Required
+precache_recent_posts_num: 5 # Optional
+precache_glob_directory: / # Optional
+precache_glob_patterns: # Optional
+  - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+  - index.html
+precache_glob_ignores: # Optional
+  - sw-register.js
+  - "fonts/**/*"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
