@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-conscious-sedation"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.5"
   spec.authors       = ["LavenderGrey askcreative"]
   spec.email         = ["arashi@tutanota.de"]
   spec.summary       = %q{An effectual and sparse Jekyll theme.}
